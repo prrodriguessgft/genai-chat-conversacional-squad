@@ -43,7 +43,7 @@ export class ModuloComponent {
               console.log(modules)
           
           } else {
-            console.log("Usuário não encontrado")
+            console.log("Usuário não encontrados")
           }
         }
       }
