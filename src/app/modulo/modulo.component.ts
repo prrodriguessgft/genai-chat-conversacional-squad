@@ -23,7 +23,7 @@ export class ModuloComponent {
     'IT SUPORTE',
   ];
 
-  constructor(readonly client: ClientMockService) {
+  constructor(readonly Client: ClientMockService) {
     
   }
   ngOnInit(): void {
@@ -48,7 +48,7 @@ export class ModuloComponent {
         }
       }
 
-      clickName(this.modulos, this.client);
+      clickName(this.modulos, this.Client);
       // console.log(clickName(this.modulos, this.client.clients));
   
     // Greet('Hello','Steve');//OK, returns "Hello Steve!"
